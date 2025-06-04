@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.cxom/f0321af717.js" crossorigin="anonymous"></script>
+     </style>
+</head>
+<body>
+   <div id="header" >
+     <div class="container">
+        <nav>
+           <img src="images/logo2.png" class="logo" style="width: 20%;">
+            <ul>
+             <li><a href="#header">Home</a></li>
+             <li><a href="#about">About</a></li>
+             <li><a href="#services">Services</a></li>
+             <li><a href="#portfolio">Portfolio</a></li>
+             <li><a href="#contact">Contact</a></li>
+             </ul>
+           </nav>
+        <div class="header-text">
+            <p>Student</p>
+            <h1>Hi, I am <span>Parivesh</span> <br>Rohilla </h1>
+        
+        </div>
+     </div>
+   </div>
+<!---About ME-->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/aboutus.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                        <p>I Am Me.</p>
+                      <p>I am a person who is positive about every aspect of life. 
+                         There are many things I like to do,
+                            to see, and to experience. 
+                            I like to read, I like to write;
+                           I like to think, I like to dream; 
+                            I like to talk, I like to listen.</p>
+
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developer</span><br>Designing Web interfaces</li>
+                            <li><span>Python</span><br>Clear concepts on Libraries</li>
+                            <li><span>Database</span><br>Good Understanding of MySQL,Oracle</li>
+                        </ul>
+                     </div>
+
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>CodTech</span><br>Learned about HTML , CSS and Javascript</li>
+                            <li><span>Futureintern</span><br>Python And It's Libraries</li>
+                            <li><span>CodersBridge</span><br>Libraries Of Python</li>
+                            <li><span>CodSoft</span><br>UI/UX and features of figma</li>
+                            <li><span>A Few More Companies</span><br>Tried a few more different domain for fun</li>
+                        </ul>
+                     </div>
+
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>Completed 12th </li>
+                            <li><span>2023</span><br> Started My Undergraduate Btech Degree At Quantum University</li>
+                            <li><span>Present</span><br>Sophomores And Looking For Internships</li>
+                            
+                            
+                        </ul>
+                     </div>
+
+
+            </div>
+        </div>
+    </div>
+   </div>
+
+  <!------------Sevices of portfolio--------------->
+  <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1> 
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web designing is the process of planning, conceptualizing, and implementing the plan for
+                 designing a website in a way that is functional and offers a good user experience. 
+                 User experience is central to the web designing process. </p>
+                 <a href="#">Learn More</a>
+            </div>     
+                <div>
+                    <i class="fa-brands fa-adn"></i>
+                   
+                 <h2>Good Teacher And Mentor</h2>
+                 <p>Very friendly and give you fresh examples for you to undrstand a given topic. If 
+                    I have no experience in the field then i would try to give a few courses of experience to get the concept.</p>
+                  <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                  <h2>Python </h2>
+                  <p>Python is a powerful programming language that you can use for web development. 
+                    It has a simple syntax and is easy to learn,
+                     which makes it a popular choice for programmers. . </p>
+                   <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+ 
+<!----Portfolio page---->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.jpg">
+                <div class="layer">
+                   
+                    <h3>Object Detection Using JavaScript</h3>
+                    <h4>This project implements object detection using TensorFlow.js and the COCO-SSD model.
+                         Users can upload images, and the application identifies and labels objects with bounding boxes.
+                          It showcases real-time detection capabilities in a web browser, leveraging modern JavaScript 
+                          technologies for an interactive user experience.</h4>
+                        <a href="https://github.com/Parivesh415/Object_Detection"><i class="fa-solid fa-building-columns"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.png">
+                <div class="layer">
+                    
+                    <h3>Object Detection Using Python</h3>
+                    <h4>Your code for object detection using OpenCV and a pre-trained SSD MobileNet model looks good!
+                         Below, I'll provide a brief overview of the code and some suggestions for improvements or additional
+                          features you might consider.
+                    </h4>
+                        <a href="https://github.com/Parivesh415/ObjectDetection"><i class="fa-solid fa-house"></i></a>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+
+</div>
+  
+  
+  <!----------------------Contact--------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>pari040105@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>8089360601</p>
+                <div class="s-media">
+                    <a href="https://www.linkedin.com/in/ parivesh-rohilla-a02a2a2a7" ><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+               <a href="images/Resume.pdf" download class="btn">Download Resume</a>
+            </div>
+
+            <div class="contact-right">
+               <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Parivesh Rohilla<i class="fa-regular fa-heart"></i></p>
+    </div>
+</div>
+   
+   <script>
+    var tablinks=document.getElementsByClassName("tab-links")
+    var tabcontents=document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+   </script>
+</body>
+</html>
